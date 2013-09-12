@@ -3,7 +3,7 @@
 # Function: read_burl()
 # Input: file
 # Output: dates, pressure, v_wind, u_wind
-# Author and history: Yue Wang  09/11/2013
+# Author and history: Yue Wang  09/12/2013
 
 import numpy as np                  # import numpy
 from datetime import datetime
