@@ -17,9 +17,9 @@ class read_burl():
         pressure      = []
         winds         = []
         windd         = []
-        v_wind        = []
-        u_wind        = []
-        winddo        = []
+#        v_wind        = []
+#        u_wind        = []
+#        winddo        = []
 
         for line in data.readlines()[2:]:  #read lines
             data0 = line.split()
@@ -48,12 +48,12 @@ class read_burl():
         
     
     
-if __name__ == "__main__":                 
-    value_c = read_burl('burl1_2011.txt')
+#if __name__ == "__main__":                 
+value_c = read_burl('burl1_2011.txt')
     
-print 'datetime =', value_c.dates[10]
-print 'pressure =',value_c.pressure[10]
-print 'u_wind =',value_c.u_wind[10]
-print 'v_wind =',value_c.v_wind[10]
+#print 'datetime =', value_c.dates[10]
+#print 'pressure =',value_c.pressure[10]
+#print 'u_wind =',value_c.u_wind[10]
+#print 'v_wind =',value_c.v_wind[10]
 
 
